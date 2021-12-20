@@ -8,28 +8,28 @@ background-color: #EBB17C;
       /*alignement du header */
 header{
     display: flex;
-    flex-direction: column;  /* par defaut row */
+    flex-direction: column;  
     justify-content: center; 
     align-items:center;
 }
 
 .title{
-    font-family: 'Corinthia', cursive;/*changer du police */
-    position:absolute;/*mettre par rapport de toute la page*/
-    z-index:999;/*pour placer le text devant l'image*/
-    padding:50px;/*generate space around an element's content*/
+    font-family: 'Corinthia', cursive;
+    position:absolute;
+    z-index:999;
+    padding:50px;
     background-color: #FCE5CF;
-    top:260px;/*tala3ha lfou9*/
-    box-shadow: -13px 13px 2px 1px rgba(0, 0, 0, .2);/*tzid shadow*/
+    top:260px;
+    box-shadow: -13px 13px 2px 1px rgba(0, 0, 0, .2);
 }
 
  header h1{
-    font-size: 80px; /*changer la taille du balise h1 */
+    font-size: 80px; 
     text-align: center;
 }
 
 header p{
-    font-size: 25px; /*changer la taille du balise p */
+    font-size: 25px; 
 }
 /* slider */
 .slider {
@@ -46,7 +46,7 @@ header p{
 }
 
 .slide {
-    opacity: 0.6;/*couleur d'arriere plan pour les images*/
+    opacity: 0.6;
 }
 
 
@@ -77,12 +77,11 @@ header p{
     }
 }
 /*_________Menu_____________*/
-/*______tbadel lmenu 3la 3oredh lpage_____*/
 .section{
     width: 100%;
 display: flex;
 justify-content: center;
-transform: translateY(-130px);/*tala3ha lfouk*/
+transform: translateY(-130px);
 }
 
 nav.menu{
@@ -94,32 +93,32 @@ nav.menu ul{
 }
 
 nav.menu ul li{
-    list-style-type: none; /*desactiver la numeration du liste*/
+    list-style-type: none; 
       /*centrer le mot */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/*ki t3adi souris aal image tasghar*/
+
 nav.menu ul li:hover{
-    transform: scale(0.9);/*bch tesghar w ki thot >1 tkbar*/
+    transform: scale(0.9);
     transition: 0.3s all;
 }
 
 nav.menu ul li a {
     color: white;
     font-size: 50px;
-    text-decoration: none;/*enlever la barre au dessus */
+    text-decoration: none;
 }
 
-/*changer taille des image */
+
 .nav-item{
     flex:1;
     height :300px;
 } 
 
-/* mettre une image en arriere plan de chaque champs*/
+
 .salade{
 background: url(../image/salad-banner.jpg) 100%;
 background-repeat: no-repeat;
@@ -129,7 +128,7 @@ background-size: cover;
 .pizza{
     background: url(../image/pizza-banner.jpg)100%;
     background-repeat: no-repeat;
-    background-size: cover;/*tkaber f taswira */
+    background-size: cover;
 }
 
 .burger{
@@ -152,24 +151,24 @@ background-size: cover;
 /*__________sections des plats______________________*/
 .item {
     background-color: white;
-    margin: 20px;/*espace entre les lignes*/
+    margin: 20px;
     display: flex;
-    cursor: pointer;/*ki taady souris aal ktiba yodhhor cursor*/
+    cursor: pointer;
     transition: 0.3s all;
     width: 80%;
 }
 
 /*ajouter une animation*/
 .item:hover{
-    box-shadow: -10px 10px 2px 1px rgba(0, 0, 0, .2);/*tzid shadow*/
-    transform: scale(0.9);/*bch tesghar w ki thot >1 tkbar*/
+    box-shadow: -10px 10px 2px 1px rgba(0, 0, 0, .2);
+    transform: scale(0.9);
     transition: 0.3s all;
 }
 
-/*kaberna lktiba li f description*/
+
 .item-info {
     padding: 20px;
-    line-height: 40px;/*t5ali espace entre les lignes*/
+    line-height: 40px;
 }
 
 .item-info h3{
@@ -177,13 +176,13 @@ background-size: cover;
 }
 
 .item-info hr{
-    margin: 10px 0 10px 0;/*haut droite bas gauche*/
+    margin: 10px 0 10px 0;
     opacity: 0.5;
 }
 
 
 section {
-    padding: 100px;/*espace 3alajneb*/
+    padding: 100px;
 }
 
 section img{
